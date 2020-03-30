@@ -104,7 +104,7 @@ header {
   align-items: center; }
   @media (max-width: 480px) {
     header {
-      padding: 5rem 2rem; } }
+      padding: 5rem 3rem; } }
   header h1 {
     font-size: 6rem;
     line-height: 8rem;
@@ -112,7 +112,7 @@ header {
     letter-spacing: 2rem; }
     @media (max-width: 480px) {
       header h1 {
-        font-size: 4rem; } }
+        font-size: 6rem; } }
   header p {
     letter-spacing: 0.5rem;
     font-size: 2rem; }
@@ -132,7 +132,8 @@ aside {
       aside picture {
         grid-area: picture; }
       aside .bloc1 {
-        grid-area: bloc1; }
+        grid-area: bloc1;
+        margin-top: 2rem; }
       aside .bloc2 {
         grid-area: bloc2; }
       aside .bloc3 {
@@ -278,7 +279,7 @@ main {
     @media (max-width: 480px) {
       main .main-container .main-bloc h2 {
         font-size: 1.5rem;
-        margin: 1rem 0rem 2rem 0rem !important; } }
+        margin: 1rem 2rem 2rem 0rem !important; } }
   main .main-container .main-bloc h3 {
     margin: 1rem 0rem;
     font-size: 2.5rem; }
@@ -286,15 +287,13 @@ main {
       main .main-container .main-bloc h3 {
         font-size: 1.5rem; } }
   main .main-container .main-bloc p {
-    margin: 0rem 0rem 1rem 0rem;
+    margin: 0rem 3rem 1rem 0rem;
     font-size: 2rem;
     line-height: 3rem; }
     @media (max-width: 480px) {
       main .main-container .main-bloc p {
         font-size: 1rem;
         line-height: 1.5rem; } }
-  main .main-container .main-bloc br {
-    margin: 0rem 0rem 1rem 0rem; }
   main .main-container .main-bloc .main-bloc-list {
     display: flex;
     flex: auto; }
@@ -318,14 +317,14 @@ main {
         margin-bottom: 1rem !important; } }
     main .main-container .main-bloc .experience .timeline {
       min-width: 15rem;
+      padding-right: 2rem;
       align-self: center;
       text-align: center;
       color: var(--hint);
-      padding-right: 2rem;
       border-right: 1px solid var(--border); }
       @media (max-width: 480px) {
         main .main-container .main-bloc .experience .timeline {
-          min-width: 2.5rem;
+          min-width: 6rem;
           padding-right: 1rem; } }
       main .main-container .main-bloc .experience .timeline p {
         margin: 0; }

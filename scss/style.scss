@@ -33,7 +33,7 @@ header {
   justify-content: start;
   align-items: center;
   @include xs {
-    padding: 5rem 2rem;
+    padding: 5rem 3rem;
   }
 
   h1 {
@@ -42,7 +42,7 @@ header {
     font-weight: 300;
     letter-spacing: 2rem;
     @include xs {
-      font-size: 4rem;
+      font-size: 6rem;
     }
   }
   p {
@@ -77,6 +77,7 @@ aside {
 
     .bloc1 {
       grid-area: bloc1;
+      margin-top: 2rem;
     }
     .bloc2 {
       grid-area: bloc2;
@@ -279,7 +280,7 @@ main {
         font-size: 3rem;
         @include xs {
           font-size: 1.5rem;
-          margin: 1rem 0rem 2rem 0rem !important;
+          margin: 1rem 2rem 2rem 0rem !important;
         }
       }
       h3 {
@@ -290,16 +291,13 @@ main {
         }
       }
       p {
-        margin: 0rem 0rem 1rem 0rem;
+        margin: 0rem 3rem 1rem 0rem;
         font-size: 2rem;
         line-height: 3rem;
         @include xs {
           font-size: 1rem;
           line-height: 1.5rem;
         }
-      }
-      br {
-        margin: 0rem 0rem 1rem 0rem;
       }
 
       .main-bloc-list {
@@ -331,13 +329,13 @@ main {
 
         .timeline {
           min-width: 15rem;
+          padding-right: 2rem;
           align-self: center;
           text-align: center;
           color: var(--hint);
-          padding-right: 2rem;
           border-right: 1px solid var(--border);
           @include xs {
-            min-width: 2.5rem;
+            min-width: 6rem;
             padding-right: 1rem;
           }
           p {
