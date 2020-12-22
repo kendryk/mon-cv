@@ -188,26 +188,28 @@ aside {
         transform: rotate(45deg);
       }
       .bar-dot-html {
-        left: calc(60% - 5px);
+        left: calc(90% - 5px);
       }
       .bar-dot-scss {
-        left: calc(60% - 5px);
+        left: calc(80% - 5px);
       }
       .bar-dot-mysql {
-        left: calc(60% - 5px);
+        left: calc(50% - 5px);
       }
       .bar-dot-php {
-        left: calc(60% - 5px);
+        left: calc(50% - 5px);
       }
       .bar-dot-symfony {
-        left: calc(60% - 5px);
+        left: calc(50% - 5px);
       }
       .bar-dot-react {
+        left: calc(40% - 5px);
+      }
+      .bar-dot-wp {
         left: calc(60% - 5px);
       }
-      
       .bar-dot-js {
-        left: calc(1% - 5px);
+        left: calc(50% - 5px);
       }
       .bar-dot-ang {
         left: calc(1% - 5px);
