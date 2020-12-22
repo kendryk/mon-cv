@@ -129,8 +129,11 @@ aside {
         font-size: 0.9rem;
       }
     }
+
+
+    //////
     .bar-skill {
-      margin: 1rem 0;
+      margin: 1rem;
       height: 5px;
       background: var(--hint);
       position: relative;
@@ -191,7 +194,7 @@ aside {
         left: calc(90% - 5px);
       }
       .bar-dot-scss {
-        left: calc(80% - 5px);
+        left: calc(60% - 5px);
       }
       .bar-dot-mysql {
         left: calc(50% - 5px);
@@ -224,6 +227,9 @@ aside {
         left: calc(80% - 5px);
       }
     }
+
+
+    ////
     .star-container {
       display: flex;
       margin: 1rem 0.5rem 1rem 0rem;
