@@ -173,7 +173,7 @@ aside {
         aside .bloc p {
           font-size: 0.9rem; } }
     aside .bloc .bar-skill {
-      margin: 1rem 0;
+      margin: 1rem;
       height: 5px;
       background: var(--hint);
       position: relative; }
@@ -184,11 +184,21 @@ aside {
         left: 0;
         background: var(--light); }
       aside .bloc .bar-skill .bar-skill-html {
-        width: 60%; }
+        width: 90%; }
       aside .bloc .bar-skill .bar-skill-scss {
+        width: 80%; }
+      aside .bloc .bar-skill .bar-skill-mysql {
+        width: 50%; }
+      aside .bloc .bar-skill .bar-skill-php {
+        width: 50%; }
+      aside .bloc .bar-skill .bar-skill-symfony {
+        width: 50%; }
+      aside .bloc .bar-skill .bar-skill-react {
+        width: 40%; }
+      aside .bloc .bar-skill .bar-skill-wp {
         width: 60%; }
       aside .bloc .bar-skill .bar-skill-js {
-        width: 1%; }
+        width: 50%; }
       aside .bloc .bar-skill .bar-skill-ang {
         width: 1%; }
       aside .bloc .bar-skill .bar-skill-packof {
@@ -205,11 +215,21 @@ aside {
         top: -2.5px;
         transform: rotate(45deg); }
       aside .bloc .bar-skill .bar-dot-html {
-        left: calc(60% - 5px); }
+        left: calc(90% - 5px); }
       aside .bloc .bar-skill .bar-dot-scss {
         left: calc(60% - 5px); }
+      aside .bloc .bar-skill .bar-dot-mysql {
+        left: calc(50% - 5px); }
+      aside .bloc .bar-skill .bar-dot-php {
+        left: calc(50% - 5px); }
+      aside .bloc .bar-skill .bar-dot-symfony {
+        left: calc(50% - 5px); }
+      aside .bloc .bar-skill .bar-dot-react {
+        left: calc(40% - 5px); }
+      aside .bloc .bar-skill .bar-dot-wp {
+        left: calc(60% - 5px); }
       aside .bloc .bar-skill .bar-dot-js {
-        left: calc(1% - 5px); }
+        left: calc(50% - 5px); }
       aside .bloc .bar-skill .bar-dot-ang {
         left: calc(1% - 5px); }
       aside .bloc .bar-skill .bar-dot-packof {
