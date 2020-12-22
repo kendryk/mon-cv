@@ -143,12 +143,30 @@ aside {
         background: var(--light);
       }
       .bar-skill-html {
-        width: 60%;
+        width: 90%;
       }
       .bar-skill-scss {
-        width: 60%;
+        width: 80%;
+      }
+      .bar-skill-mysql {
+        width: 30%;
+      }
+      .bar-skill-php {
+        width: 1%;
+      }
+      .bar-skill-symfony {
+        width: 1%;
+      }
+      .bar-skill-react {
+        width: 1%;
+      }
+      .bar-skill-wp {
+        width: 1%;
       }
       .bar-skill-js {
+        width: 1%;
+      }
+      .bar-skill-ang {
         width: 1%;
       }
       .bar-skill-ang {
@@ -178,6 +196,19 @@ aside {
       .bar-dot-scss {
         left: calc(60% - 5px);
       }
+      .bar-dot-mysql {
+        left: calc(60% - 5px);
+      }
+      .bar-dot-php {
+        left: calc(60% - 5px);
+      }
+      .bar-dot-symfony {
+        left: calc(60% - 5px);
+      }
+      .bar-dot-react {
+        left: calc(60% - 5px);
+      }
+      
       .bar-dot-js {
         left: calc(1% - 5px);
       }
