@@ -186,7 +186,7 @@ aside {
       aside .bloc .bar-skill .bar-skill-html {
         width: 90%; }
       aside .bloc .bar-skill .bar-skill-scss {
-        width: 80%; }
+        width: 70%; }
       aside .bloc .bar-skill .bar-skill-mysql {
         width: 50%; }
       aside .bloc .bar-skill .bar-skill-php {
@@ -199,6 +199,8 @@ aside {
         width: 60%; }
       aside .bloc .bar-skill .bar-skill-js {
         width: 50%; }
+      aside .bloc .bar-skill .bar-skill-py {
+        width: 40%; }
       aside .bloc .bar-skill .bar-skill-ang {
         width: 1%; }
       aside .bloc .bar-skill .bar-skill-packof {
@@ -217,7 +219,7 @@ aside {
       aside .bloc .bar-skill .bar-dot-html {
         left: calc(90% - 5px); }
       aside .bloc .bar-skill .bar-dot-scss {
-        left: calc(60% - 5px); }
+        left: calc(70% - 5px); }
       aside .bloc .bar-skill .bar-dot-mysql {
         left: calc(50% - 5px); }
       aside .bloc .bar-skill .bar-dot-php {
@@ -230,6 +232,8 @@ aside {
         left: calc(60% - 5px); }
       aside .bloc .bar-skill .bar-dot-js {
         left: calc(50% - 5px); }
+      aside .bloc .bar-skill .bar-dot-py {
+        left: calc(40% - 5px); }
       aside .bloc .bar-skill .bar-dot-ang {
         left: calc(1% - 5px); }
       aside .bloc .bar-skill .bar-dot-packof {
